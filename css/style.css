@@ -54,13 +54,13 @@ ul, li {
     display: flex;
     margin: auto;
     padding-top: 0.8em;
-    justify-content: center;
+    justify-content: left;
 }
 .logo {
     padding-bottom: 3px;
 }
 .searchOnSite {
-    padding-left: 10%;
+    margin-left: 10.2%;
     padding-top: 29px;
     display: flex;
 }
@@ -81,13 +81,16 @@ ul, li {
     text-transform: uppercase;
     border: none;
 }
+.linksConnectImgItems {
+    width: 124px;
+    margin-left: 14.3%;
+    display: flex;
+    flex-direction: row;
+}
 .links {
     padding-top: 28px;
-    padding-left: 0.5%;
+    padding-left: 5px;
 
-}
-.linkFirst {
-    padding-left: 15%;
 }
 /*Navigation Bar*/
 .header__navbar {
@@ -95,7 +98,7 @@ ul, li {
 }
 .navMenu {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .navLinks {
     color: #ffffff;
@@ -128,7 +131,7 @@ ul, li {
 
 /*Start Main*/
 .main {
-    padding-top: 31px;
+    padding-top: 21px;
 }
 /*Main Content*/
 .content {
@@ -143,22 +146,53 @@ ul, li {
     font-weight: 700;
     line-height: 47px;
 }
+/*Date Widget*/
+.dateItem {
+    position: absolute;
+    left: -45px;
+    top: 32px;
+}
+.dateItem__day {
+    width: 68px;
+    height: 46px;
+    background-color: #f78f1d;
+    color: #ebebeb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dateItem__month {
+    width: 68px;
+    height: 33px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #00aedb;
+}
 .content__mainParagraph {
-    padding-top: 11px;
+    padding-top: 6px;
     color: #494949;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     text-align: justify;
+    letter-spacing: -0.2px;
 }
 /*Gallery*/
 .gallery {
     width: 648px;
     height: 563px;
     border: 1px solid gray;
-    margin: auto;
-    padding-top: 16px;
+    margin: 18px auto auto;
+    padding-top: 10px;
 }
 .galleryPhotos {
     display: flex;
@@ -169,9 +203,32 @@ ul, li {
     width: 626px;
     height: 377px;
 }
+.galleryPhotosItem {
+    width: 162px;
+    height: 150px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.24);
+    border: 3px solid #ffffff;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+.content__mainParagraph_down {
+    margin-top: 20px;
+}
 /*Content Interesting*/
+.content__interesting {
+    margin: 0 auto auto;
+}
+.selectMenu {
+    padding-top: 10px;
+}
+.selectMenu__fashion {
+    display: none;
+}
+.selectMenu__tv {
+    display: none;
+}
 .selectMenu__header {
-    background-color: #5261ac;
+    background: url('http://ipic.su/img/img7/fs/backgroundBlueNews.1556633052.png');
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
@@ -179,8 +236,10 @@ ul, li {
     line-height: 37px;
     text-transform: uppercase;
     border-top-right-radius: 54px;
-    padding-left: 35px;
+    text-align: center;
+    padding-right: 31px;
     width: 199px;
+    height: 36px;
 }
 .selectMenu__navbar {
     display: flex;
@@ -200,19 +259,51 @@ ul, li {
     background-color: #ec098d;
     width: 99px;
 }
+.triggerOne {
+    display: none;
+}
+.triggerOne:after {
+    content: '';
+    position: relative;
+    border: 9px solid transparent;
+    border-top: 13px solid #ec098d;
+    top: 3px;
+}
 .selectMenu__navbarLinks_second {
     background-color: #f78f1d;
     width: 97px;
 }
+.triggerTwo:after {
+    content: '';
+    position: relative;
+    border: 11px solid transparent;
+    border-top: 15px solid #f78f1d;
+    top: 3px;
+}
 .selectMenu__navbarLinks_three {
     background-color: #00aedb;
     width: 134px;
+}
+.triggerThree {
+    display: none;
+}
+.triggerThree:after {
+    content: '';
+    position: relative;
+    border: 9px solid transparent;
+    border-top: 13px solid #00aedb;
+    top: 3px;
+
 }
 .selectMenu__contentItem {
     display: flex;
     padding-bottom: 18px;
     border-bottom: 1px solid gray;
     margin-top: 16px;
+}
+.selectItemImg {
+    width: 80px;
+    height: 97px;
 }
 .selectItemText {
     padding-left: 12px;
@@ -228,6 +319,9 @@ ul, li {
 .selectItemHeader__a {
     color: #00aedb;
     text-decoration: none;
+}
+.selectItemHeader__a_big {
+    font-weight: 600;
 }
 .selectItemParagraph {
     margin-top: 8px;
@@ -251,6 +345,8 @@ ul, li {
     line-height: 37px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 3px;
+    padding-right: 27px;
 }
 .likedNews__contentItem {
     display: flex;
@@ -269,5 +365,83 @@ ul, li {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
+    padding-left: 15px;
+    line-height: 15px;
+}
+.underParagraphWord {
+    padding-left: 15px;
 }
 
+/*Start Adaptive Part*/
+
+@media (max-width: 1470px) {
+    .header, .main, .footer {
+        margin-left: 6.750em;
+        margin-right: 6.375em;
+    }
+    .header__logoElements, .navMenu {
+        justify-content: center;
+    }
+}
+@media (max-width: 1258px) {
+    .header, .main, .footer {
+        margin-left: 3.750em;
+        margin-right: 3.375em;
+    }
+}
+@media (max-width: 1258px) {
+    .header, .main, .footer {
+        margin-left: 1.75em;
+        margin-right: 1.375em;
+    }
+    .dateItem {
+        left: 30px;
+    }
+    .content__mainHeader {
+        padding-left: 88px;
+    }
+}
+@media (max-width: 1098px) {
+    .searchOnSite {
+        margin-left: 3.2%;
+    }
+    .linksConnectImgItems {
+        margin-left: 5.3%;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content__interesting {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    .content__main {
+        margin-top: 44px;
+    }
+    .dateItem__day {
+        height: 38px;
+    }
+    .dateItem {
+        top: 78px;
+    }
+    .selectMenu {
+        padding-top: 0;
+    }
+    .navLinks_wider {
+        text-align: center;
+        padding-left: 0;
+    }
+    .navLinks {
+        width: 12.8%;
+    }
+}
+
+@media (max-width: 750px) {
+    .navMenu {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

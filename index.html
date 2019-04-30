@@ -20,12 +20,14 @@
                         <input type="submit" value="Поиск" class="searchButton">
                     </div>
                 </form>
-                <a href="#" class="links linkFirst"><img src="img/connect.png" alt="" class="linksImg"></a>
-                <a href="#" class="links"><img src="img/facebook.png" alt="" class="linksImg"></a>
-                <a href="#" class="links"><img src="img/twitter.png" alt="" class="linksImg"></a>
+                <div class="linksConnectImgItems">
+                    <a href="#" class="links linkFirst"><img src="img/connect.png" alt="" class="linksImg"></a>
+                    <a href="#" class="links"><img src="img/facebook.png" alt="" class="linksImg"></a>
+                    <a href="#" class="links"><img src="img/twitter.png" alt="" class="linksImg"></a>
+                </div>
             </div>
             <div class="header__navbar">
-                <nav class="navMenu">
+                <div class="navMenu">
                     <a href="#" class="navLinks background_blue">
                         Главная
                     </a>
@@ -47,13 +49,21 @@
                     <a href="#" class="navLinks navLinks_wider">
                         Контакты
                     </a>
-                </nav>
+                </div>
             </div>
             <img src="img/rainbow_r1.png" alt="" class="rainbow_r1">
         </header>
     <main id="main" class="main">
             <article class="content">
                 <section class="content__main">
+                    <div class="dateItem">
+                        <h1 class="dateItem__day">
+                           28
+                        </h1>
+                        <h1 class="dateItem__month">
+                            фев
+                        </h1>
+                    </div>
                     <h1 class="content__mainHeader">
                         Lorem Ipsum is simply dummy text of the printing
                     </h1>
@@ -65,21 +75,23 @@
                                 class="mainPhoto"><img class="largeImgItem" id="largeImg" src="img/photo1.jpg"
                                                        alt="Large image"></p>
                         <ul id="thumbs" class="galleryPhotos">
-                            <li>
+                            <li class="galleryPhotosItem">
                                 <a href="img/photo1.jpg" title="Image 1"><img src="img/photo2.jpg"></a>
                             </li>
-                            <li>
+                            <li class="galleryPhotosItem">
                                 <a href="img/photo3.jpg" title="Image 3"><img src="img/photo3.jpg"></a>
                             </li>
-                            <li>
+                            <li class="galleryPhotosItem">
                                 <a href="img/photo4.jpg" title="Image 4"><img src="img/photo4.jpg"></a>
                             </li>
-                            <li>
+                            <li class="galleryPhotosItem">
                                 <a href="img/photo5.jpg" title="Image 5"><img src="img/photo5.jpg"></a>
                             </li>
                         </ul>
                     </div>
-                    <p class="content__mainParagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="content__mainParagraph content__mainParagraph_down">Lorem Ipsum is simply dummy text of
+                        the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </section>
                 <section class="content__interesting">
                     <div class="selectMenu">
@@ -89,20 +101,26 @@
                         <ul class="selectMenu__navbar">
                             <li class="selectMenu__navbarLinks_first">
                                 Мода
+                                <div class="triggerOne"></div>
                             </li>
                             <li class="selectMenu__navbarLinks_second">
                                 Кино
+                                <div class="triggerTwo"></div>
                             </li>
                             <li class="selectMenu__navbarLinks_three">
                                 TV
+                                <div class="triggerThree"></div>
                             </li>
                         </ul>
+                        <!--Movies-->
                         <section class="selectMenu__movies">
                             <div class="selectMenu__contentItem">
                                 <img src="img/selectImg.png" alt="img" class="selectItemImg">
                                 <div class="selectItemText">
                                     <h3 class="selectItemHeader">
-                                        <a class="selectItemHeader__a" href="">Lorem Ipsum is simply dummy text of the
+                                        <a class="selectItemHeader__a" href="">Lorem Ipsum is
+                                            simply dummy text of
+                                            the
                                             printing</a>
                                     </h3>
                                     <p class="selectItemParagraph">
@@ -114,7 +132,7 @@
                                 <img src="img/selectImg.png" alt="img" class="selectItemImg">
                                 <div class="selectItemText">
                                     <h3 class="selectItemHeader">
-                                        <a class="selectItemHeader__a" href="">Lorem Ipsum is simply dummy text of the
+                                        <a class="selectItemHeader__a selectItemHeader__a_big" href="">Lorem Ipsum is simply dummy text of the
                                             printing</a>
                                     </h3>
                                     <p class="selectItemParagraph">
@@ -126,7 +144,87 @@
                                 <img src="img/selectImg.png" alt="img" class="selectItemImg">
                                 <div class="selectItemText">
                                     <h3 class="selectItemHeader">
-                                        <a class="selectItemHeader__a" href="">Lorem Ipsum is simply dummy text of the
+                                        <a class="selectItemHeader__a selectItemHeader__a_big" href="">Lorem Ipsum is simply dummy text of the
+                                            printing</a>
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="selectMenu__fashion">
+                            <div class="selectMenu__contentItem">
+                                <img src="img/photo2.jpg" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        <a class="selectItemHeader__a" href="">Lorem Ipsum is
+                                            simply dummy text of
+                                            the
+                                            printing</a>
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="selectMenu__contentItem">
+                                <img src="img/photo2.jpg" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        <a class="selectItemHeader__a selectItemHeader__a_big" href="">Lorem Ipsum is simply dummy text of the
+                                            printing</a>
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="selectMenu__contentItem">
+                                <img src="img/photo2.jpg" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        <a class="selectItemHeader__a selectItemHeader__a_big" href="">Lorem Ipsum is simply dummy text of the
+                                            printing</a>
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="selectMenu__tv">
+                            <div class="selectMenu__contentItem">
+                                <img src="img/photo3.jpg" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        <a class="selectItemHeader__a" href="">Lorem Ipsum is
+                                            simply dummy text of
+                                            the
+                                            printing</a>
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="selectMenu__contentItem">
+                                <img src="img/photo3.jpg" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        <a class="selectItemHeader__a selectItemHeader__a_big" href="">Lorem Ipsum is simply dummy text of the
+                                            printing</a>
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="selectMenu__contentItem">
+                                <img src="img/photo3.jpg" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        <a class="selectItemHeader__a selectItemHeader__a_big" href="">Lorem Ipsum is simply dummy text of the
                                             printing</a>
                                     </h3>
                                     <p class="selectItemParagraph">
@@ -185,5 +283,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
+<script src="scripts/script/NewsItem.js"></script>
 </body>
 </html>
