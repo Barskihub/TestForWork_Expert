@@ -21,7 +21,7 @@
     bottom: 0;
     left: 100%;
 }
-.header, .main, .footer {
+.header, .main {
     position: relative;
     margin-left: 13.750em;
     margin-right: 13.375em;
@@ -376,7 +376,7 @@ ul, li {
 /*Start Adaptive Part*/
 
 @media (max-width: 1470px) {
-    .header, .main, .footer {
+    .header, .main {
         margin-left: 6.750em;
         margin-right: 6.375em;
     }
@@ -516,9 +516,15 @@ ul, li {
     .header, .main {
         margin-left: 0;
         margin-right: 0;
+        width: 128%;
     }
-
-}
-@media (max-width: 404px) {
-
+    .gallery {
+        width: 378px;
+    }
+    .largeImgItem {
+        width: 365px;
+    }
+    .GalleryImgItem {
+        width: 71px;
+    }
 }
