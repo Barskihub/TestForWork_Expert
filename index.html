@@ -4,18 +4,132 @@
     <meta charset="UTF-8">
     <title>Expert</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="wrapper">
         <header class="header" id="header">
-
+            <div class="header__logoElements">
+                <img src="img/logo.png" alt="logoExpert" class="logo" id="logo">
+                <form id="searchOnSite" class="searchOnSite">
+                        <input type="search" name="searchV" placeholder="" class="searchArea">
+                    <div class="searchItem">
+                        <input type="submit" value="Поиск" class="searchButton">
+                    </div>
+                </form>
+                <a href="#" class="links linkFirst"><img src="img/connect.png" alt="" class="linksImg"></a>
+                <a href="#" class="links"><img src="img/facebook.png" alt="" class="linksImg"></a>
+                <a href="#" class="links"><img src="img/twitter.png" alt="" class="linksImg"></a>
+            </div>
+            <div class="header__navbar">
+                <nav class="navMenu">
+                    <a href="#" class="navLinks background_blue">
+                        Главная
+                    </a>
+                    <a href="#" class="navLinks background_green">
+                        Кино
+                    </a>
+                    <a href="#" class="navLinks navLinks3 background_purple">
+                        Магазин
+                    </a>
+                    <a href="#" class="navLinks navLinks4 background_blue ">
+                        Проекты
+                    </a>
+                    <a href="#" class="navLinks navLinks5 background_orange">
+                        Новости
+                    </a>
+                    <a href="#" class="navLinks navLinks6 background_red">
+                        Архив
+                    </a>
+                    <a href="#" class="navLinks navLinks_wider">
+                        Контакты
+                    </a>
+                </nav>
+            </div>
         </header>
         <main id="main" class="main">
-
+            <article class="content">
+                <section class="content__main">
+                    <h1 class="content__mainHeader">
+                        Lorem Ipsum is simply dummy text of the printing
+                    </h1>
+                    <p class="content__mainParagraph">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
+                    </p>
+                    <div class="gallery">
+                        <p class="mainPhoto"><img id="largeImg" src="img/photo1.jpg" alt="Large image"></p>
+                        <ul id="thumbs">
+                            <li>
+                                <a href="img/photo1.jpg" title="Image 1"><img src="img/photo2.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="img/photo3.jpg" title="Image 3"><img src="img/photo3.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="img/photo4.jpg" title="Image 4"><img src="img/photo4.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="img/photo5.jpg" title="Image 5"><img src="img/photo5.jpg"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="content__mainParagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </section>
+                <section class="content__interesting">
+                    <div class="selectMenu">
+                        <h2 class="selectMenu__header">
+                            Интересное
+                        </h2>
+                        <ul class="selectMenu__navbar">
+                            <li class="selectMenu__navbarLinks">
+                                Мода
+                            </li>
+                            <li class="selectMenu__navbarLinks">
+                                Кино
+                            </li>
+                            <li class="selectMenu__navbarLinks">
+                                TV
+                            </li>
+                        </ul>
+                        <section class="selectMenu__movies">
+                            <div class="selectMenu__contentItem">
+                                <img src="img/selectImg.png" alt="img" class="selectItemImg">
+                                <div class="selectItemText">
+                                    <h3 class="selectItemHeader">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                    </h3>
+                                    <p class="selectItemParagraph">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="likedNews">
+                        <h2 class="likedNews__header">
+                            Понравилось посетителям
+                        </h2>
+                        <div class="likedNews__contentItem">
+                            <img src="img/likedNews.png" alt="img" class="likedNewsItemImg">
+                            <div class="likedNewsItemText">
+                                <h3 class="likedNewsItemHeader">
+                                    Lorem Ipsum is simply dummy text of the printing
+                                </h3>
+                                <p class="likedNewsItemParagraph">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting<br><a
+                                        href="#" class="likedNewsItemLink">industry</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
         </main>
         <footer id="footer" class="footer">
 
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

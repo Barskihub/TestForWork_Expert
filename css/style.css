@@ -1,0 +1,138 @@
+/*local sittings*/
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: #ebebeb;
+}
+.header, .main, .footer {
+    margin-left: 13.750em;
+    margin-right: 13.375em;
+    background: white;
+    padding-left: 2em;
+    padding-right: 1.2em;
+}
+.background_blue {
+    background-color: #00aedb;
+}
+.background_green {
+    background-color: #8cc63f;
+}
+.background_purple {
+    background-color: #5261ac;
+}
+.background_orange {
+    background-color: #f78f1d;
+}
+.background_red {
+    background-color: #ff0000;
+}
+ul, li {
+    list-style-type: none;
+}
+/*Header Start*/
+/*Logo and Elements*/
+.header__logoElements {
+    display: flex;
+    margin: auto;
+    padding-top: 1.16em;
+}
+.logo {
+    padding-bottom: 3px;
+}
+.searchOnSite {
+    padding-left: 101px;
+    padding-top: 29px;
+    display: flex;
+}
+.searchArea {
+    width: 317px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 1, 0.1);
+}
+.searchButton {
+    width: 120px;
+    height: 34px;
+    background-color: #00aedb;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 37px;
+    text-transform: uppercase;
+    border: none;
+}
+.links {
+    padding-top: 28px;
+    padding-left: 6px;
+
+}
+.linkFirst {
+    padding-left: 150px;
+}
+/*Navigation Bar*/
+.header__navbar {
+    margin-top: 18px;
+}
+.navMenu {
+    display: flex;
+}
+.navLinks {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 106px;
+    height: 36px;
+    text-align: center;
+}
+.navLinks_wider {
+    background-color: #898989;
+    width: 363px;
+    text-align: left;
+    padding-left: 18px;
+}
+.navLinks4 {
+    padding-left: 2px;
+}
+.navLinks5 {
+    padding-left: 4px;
+}
+.navLinks6 {
+    padding-left: 2px;
+}
+/*End Header*/
+
+/*Start Main*/
+.main {
+    padding-top: 31px;
+}
+/*Main Content*/
+.content {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 15px;
+}
+.content__mainHeader {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.content__mainParagraph {
+    padding-top: 11px;
+    color: #494949;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+}
+/*Gallery*/
+.
