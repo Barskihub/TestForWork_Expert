@@ -501,7 +501,7 @@ ul, li {
         grid-template-columns: 1fr;
     }
 }
-@media (max-width: 630px) {
+@media (max-width: 720px) {
     .dateItem {
         display: none;
     }
@@ -516,7 +516,7 @@ ul, li {
     .header, .main {
         margin-left: 0;
         margin-right: 0;
-        width: 128%;
+        width: 100%;
     }
     .gallery {
         width: 378px;
