@@ -16,7 +16,7 @@ thumbs.onclick = function(e) {
         target = target.parentNode;
     }
 
-}
+};
 
 function showThumbnail(href, title) {
     largeImg.src = href;
