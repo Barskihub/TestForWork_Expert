@@ -530,3 +530,33 @@ ul, li {
         width: 71px;
     }
 }
+@media (max-width: 410px) {
+    .gallery {
+        width: 280px;
+        height: 310px;
+    }
+    .galleryPhotosItem {
+        padding-left: 1px;
+        height: 65px;
+    }
+    .largeImgItem {
+        width: 268px;
+        height: 220px;
+    }
+    .GalleryImgItem {
+        width: 62px;
+        height: 55px;
+    }
+    .selectMenu__navbar {
+        width: 290px;
+    }
+    .likedNews__header {
+        width: 295px;
+    }
+    .selectItemParagraph, .selectItemHeader {
+        width: 200px;
+    }
+    .selectMenu__contentItem {
+    width: 300px;
+    }
+}
