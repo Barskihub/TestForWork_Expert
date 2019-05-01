@@ -69,6 +69,7 @@ ul, li {
     height: 34px;
     border: 1px solid rgba(0, 0, 1, 0.1);
     font-size: 20px;
+    -webkit-appearance: none;
 }
 .searchButton {
     width: 120px;
@@ -81,6 +82,7 @@ ul, li {
     line-height: 37px;
     text-transform: uppercase;
     border: none;
+    -webkit-appearance: none;
 }
 .linksConnectImgItems {
     width: 124px;
