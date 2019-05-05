@@ -247,6 +247,7 @@ ul, li {
 .selectMenu__navbar {
     display: flex;
     margin-top: 4px;
+    cursor: pointer;
 }
 .selectMenu__navbarLinks_first, .selectMenu__navbarLinks_second, .selectMenu__navbarLinks_three {
     height: 36px;
