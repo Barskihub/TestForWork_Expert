@@ -11,6 +11,7 @@
 <!--Images On Site-->
 <img src="img/Rainbow.png" alt="" class="rainbow_left">
 <div class="wrapper" id="wrapper">
+    <div class="containerWidth">
     <!--Header Part-->
         <header class="header" id="header">
             <div class="header__logoElements">
@@ -22,13 +23,16 @@
                     </div>
                 </form>
                 <div class="linksConnectImgItems">
-                    <a href="#" class="links linkFirst"><img src="img/connect.png" alt="" class="linksImg"></a>
-                    <a href="#" class="links"><img src="img/facebook.png" alt="" class="linksImg"></a>
-                    <a href="#" class="links"><img src="img/twitter.png" alt="" class="linksImg"></a>
+                    <a aria-label="Мы сетях" href="#" class="links linkFirst"><img src="img/connect.png" alt=""
+                                                                            class="linksImg"></a>
+                    <a aria-label="Мы сетях" href="#"
+                       class="links"><img src="img/facebook.png" alt="" class="linksImg"></a>
+                    <a aria-label="Мы сетях" href="#"
+                       class="links"><img src="img/twitter.png" alt="" class="linksImg"></a>
                 </div>
             </div>
             <div class="header__navbar">
-                <div class="navMenu">
+                <nav class="navMenu">
                     <a href="#" class="navLinks background_blue">
                         Главная
                     </a>
@@ -50,7 +54,7 @@
                     <a href="#" class="navLinks navLinks_wider">
                         Контакты
                     </a>
-                </div>
+                </nav>
             </div>
             <img src="img/rainbow_r1.png" alt="" class="rainbow_r1">
         </header>
@@ -58,12 +62,12 @@
             <article class="content">
                 <section class="content__main">
                     <div class="dateItem">
-                        <h1 class="dateItem__day">
+                        <div class="dateItem__day">
                            28
-                        </h1>
-                        <h1 class="dateItem__month">
+                        </div>
+                        <div class="dateItem__month">
                             фев
-                        </h1>
+                        </div>
                     </div>
                     <h1 class="content__mainHeader">
                         Lorem Ipsum is simply dummy text of the printing
@@ -104,15 +108,15 @@
                             Интересное
                         </h2>
                         <ul class="selectMenu__navbar">
-                            <li class="selectMenu__navbarLinks_first">
+                            <li class="selectMenu__navbarLinks_first" tabindex="0">
                                 Мода
                                 <div class="triggerOne"></div>
                             </li>
-                            <li class="selectMenu__navbarLinks_second">
+                            <li class="selectMenu__navbarLinks_second" tabindex="0">
                                 Кино
                                 <div class="triggerTwo"></div>
                             </li>
-                            <li class="selectMenu__navbarLinks_three">
+                            <li class="selectMenu__navbarLinks_three" tabindex="0">
                                 TV
                                 <div class="triggerThree"></div>
                             </li>
@@ -284,6 +288,7 @@
             </article>
         <img src="img/rainbow_r2.png" alt="" class="rainbow_r2">
         </main>
+    </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="scripts/script.js"></script>

@@ -7,6 +7,10 @@
 .wrapper {
     background-color: #ebebeb;
 }
+.containerWidth {
+    max-width: 1488px;
+    margin: auto;
+}
 .rainbow_left{
     position: absolute;
     z-index: 0;
